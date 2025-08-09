@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+    background-color: rgb(225, 224, 224);
+}
+.c-box{
+    display:flex;
+    justify-content: center;
+}
+.card{
+    margin :10% 0;
+    padding:0.5%;
+    height:90%;
+    width:20vw;
+    border:5px solid black;
+    border-radius: 2em;
+    background-color: white;
+
+}
+.image{
+    /* border:2px solid black; */
+    height:100%;
+    width:100%;
+    border-radius:60rem;
+    background-color: white;
+
+}
+img{
+    object-fit:fill;
+    height:100%;
+    width:100%;
+    border-radius:2em;
+    background-color: white;
+}
+.nav{
+    margin-right:0.2rem; 
+    margin:1rem;
+    height:auto;
+    background-color: white;
+
+}
+.n-ele{
+    border:2px solid rgb(233, 233, 233);
+    border-radius:1em;
+    margin-right:0.3rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    color:grey;
+    font-weight: bold;
+    font-size:1.1rem;
+    background-color: white;
+
+}
+h1{
+    margin-top:1rem;
+    background-color: white;
+
+    
+}
+.title{
+    margin:1em;
+}
+main{
+    margin:1.2rem;
+    color:grey; 
+}
+p{
+    background-color: white;
+}
+#button{
+    display:flex;
+    justify-content: center;
+    margin-bottom:0px;
+    border:2px solid transparent;
+    border-radius:2rem;
+    background-color: white;
+
+}
+button{
+    border-radius: 2rem;
+    padding:0.7rem;
+    color:#1877F2;
+    font-weight: bold;
+    border:none;
+    background-color:#d4ecf8;
+}
+
+@media (max-width:756px){
+        .card{
+        margin-top:10%;
+        padding:0.5%;
+        height:90%;
+        width: 50vw;
+        border:5px solid black;
+        border-radius: 2em;
+        background-color: white;
+    }
+}
